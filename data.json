@@ -1,0 +1,24 @@
+{
+    "REBANADA DE PIZZA": "2,000 PESOS",
+    "TIPOS": {
+        "pepperoni": "1500",
+        "Margarita": "1200",
+        "Napolitana": "1400",
+        "Americana": "2000"
+    },
+    "PLATOS": {
+        "Ensalada de papa": "200",
+        "arroz blanco": "250",
+        "Ensalada verde": "350",
+        "Sancocho": "500"
+    },
+    "BEBIDAS": {
+        "soda": {
+            "Pequena": "200",
+            "Mediana": "220",
+            "Grande": "250"
+        },
+        "JUGOS": "200",
+        "Agua": "125"
+    }
+}

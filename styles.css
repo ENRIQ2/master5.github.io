@@ -1,0 +1,58 @@
+/*ESTILOS GLOBALES*/
+*{
+  padding: 0;
+  margin: 0;
+}
+li ul {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.418);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 3);
+    width: 400px;
+    height: 200px;
+    max-width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    min-height: 50vh;
+    margin: 25;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+li:hover > ul {
+  display: block;
+}
+
+/*BACKGROUND DE LA PAGINA (IMAGEN)*/
+.imagen{
+  background: linear-gradient(to left, gray 0.5%, transparent), url(./foto.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*CONTENEDOR DE TITULOS*/
+.titulo{
+  background-color: orange;
+  box-shadow: 0px 0px 10px 0px black;
+}
+/*PRIMER TITULO*/
+h1{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*SEGUNDO TITULO*/
+h2{
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+/*ESTILOS MENU DINAMICO*/
+.menu-dinamico{
+  font-size: 20px;
+  color: white;
+  background-color: orangered;
+  width: fit-content;
+  margin:  20px auto;
+  padding: 10px;
+  border: 2px solid black;
+}
